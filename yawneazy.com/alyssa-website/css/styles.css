@@ -1,0 +1,200 @@
+/* CSS Reset*/
+body, h1, header {
+    margin:50;
+    padding:50;
+    border:50;
+}
+
+h2 {
+  text-align: center;
+}
+/* Style rules for header area */
+header {
+    font-family: 'Times New Roman', cursive;
+    font-size: 2em;
+    text-align: center;
+    font-weight: lighter;
+}
+
+img, video {
+    max-width: 30%;
+    display: inline-block;
+    justify-content: center;
+  }
+
+/* Background color of the body of the page*/
+body {
+    /* background-color:#597C2B; */
+    /* background-color: #d2e459; */
+    background-color: white;
+    justify-content: center;
+    
+
+}
+
+/***************************** Nav Bar content *****************************/
+
+/* Navbar container */
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  font-family: Arial;
+  justify-content: center;
+}
+
+/* Links inside the navbar */
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  justify-content: center;
+}
+
+/* The dropdown container */
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+/* Dropdown button */
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit; /* Important for vertical align on mobile phones */
+  margin: 0; /* Important for vertical align on mobile phones */
+}
+
+/* Add a red background color to navbar links on hover */
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: #597C2B;
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+center {
+  text-align: center;
+  justify-content: center;
+}
+
+/********************Style rules for the main content****************/
+
+.link {
+    color: #4d3319;
+    text-decoration: none;
+    font-weight: bold;
+    font-style: italic;
+  }
+  
+  .action {
+    font-size: 1.75em;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .round {
+    border-radius: 6px;
+  }
+
+/********************* Footer content style rules********************/
+
+footer {
+  text-align: center;
+  font-size: 0.85em;
+  background-color: #333;
+  color: #f6eee4;
+  padding: 1% 0;
+}
+
+footer a {
+  color: #f6eee4;
+  text-decoration: none;
+}
+
+div {
+  display: flex;
+  justify-content: center;
+}
+
+#placeholder{
+  display: none;
+}
+
+img {
+  padding: 1rem;
+}
+
+.social{
+  /* word-spacing: .5em; */
+  width: 20%;
+  /* display: flex; */
+}
+
+/************************ Sections ***************************/
+section {
+  padding-left: 280px;
+  justify-content: center;
+  
+}
+
+article {
+  /* float: center; */
+  /* padding: 40px; */
+  width: 70%;
+  background-color: #f1f1f1;
+  height: 300px; /* only for demonstration, should be removed */
+  text-align: center;
+  /* justify-content: center; */
+  /* padding-left: 80px; */
+  
+}
+
+/* Clear floats after the columns */
+section::after {
+  content: "";
+  display: table;
+  clear: both; 
+  text-align: center;
+}
+
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+    text-align: center;
+  }
+}
