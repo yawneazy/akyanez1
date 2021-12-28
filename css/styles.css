@@ -5,8 +5,16 @@ body, h1, header {
     border:50;
 }
 
+/* h1 {
+   font-size: 3em;
+} */
+
 h2 {
   text-align: center;
+}
+
+.creative {
+  font-size: 2.5em;
 }
 /* Style rules for header area */
 header {
@@ -28,8 +36,6 @@ body {
     /* background-color: #d2e459; */
     background-color: white;
     justify-content: center;
-    
-
 }
 
 /***************************** Nav Bar content *****************************/
@@ -161,8 +167,6 @@ img {
 .social{
   word-spacing: 1em;
   width: 50%;
-  
-  /* display: flex; */
 }
 
 
@@ -178,14 +182,10 @@ section {
 }
 
 article {
-  /* float: center; */
-  /* padding: 40px; */
   width: 70%;
   background-color: #f1f1f1;
   height: 300px; /* only for demonstration, should be removed */
   text-align: center;
-  /* justify-content: center; */
-  /* padding-left: 80px; */
   
 }
 
