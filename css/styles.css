@@ -29,6 +29,9 @@ img, video {
     display: inline-block;
     justify-content: center;
   }
+.flip {
+  rotate: 90;
+}
 
 /* Background color of the body of the page*/
 body {
